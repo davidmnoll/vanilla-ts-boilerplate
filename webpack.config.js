@@ -3,7 +3,6 @@ module.exports = {
   mode: "none",
   entry: [
     './src/index.tsx',
-    './src/index.css'
   ],
   output: {
     path: __dirname + '/dist',
@@ -39,18 +38,21 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: [
-          {
-            loader: "style-loader"
-          },
-          {
-            loader: "css-loader",
-            options: {
-                modules: true,
-                importLoaders: 1,
-                sourceMap: true                    
-            }
-          }
+        use: ['style-loader', 'css-loader', 'postcss-loader'
+          // {
+          //   loader: "style-loader"
+          // },
+          // {
+          //   loader: "css-loader",
+          //   options: {
+          //       modules: true,
+          //       importLoaders: 1,
+          //       sourceMap: true,              
+          //   }
+          // },
+          // {
+          //   loader: 'postcss-loader'
+          // }
         ]
       },
       {
