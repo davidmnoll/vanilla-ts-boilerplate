@@ -48,3 +48,10 @@ test_storybook:
     - npx playwright install-deps
     - npx playwright install
     - npm run test-storybook:ci
+
+test_playwright:
+  script:
+    - npm install
+    - npx playwright install-deps
+    - npx playwright install
+    - npm run test-playwright

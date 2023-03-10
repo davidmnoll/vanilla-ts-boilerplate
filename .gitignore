@@ -4,3 +4,6 @@ node_modules/
 /playwright/.cache/
 /storybook-static/
 .vscode
+/test-results/
+/playwright-report/
+/playwright/.cache/
