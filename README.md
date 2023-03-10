@@ -11,3 +11,5 @@ Referenced during creation:
 - https://dev.to/robotspacefish/how-i-set-up-webpack-and-babel-with-vanilla-js-2k5e
 - https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported
 - https://github.com/storybookjs/storybook/issues/17448
+- https://betterprogramming.pub/how-to-use-jsx-without-react-21d23346e5dc
+- https://fettblog.eu/jsx-syntactic-sugar/
