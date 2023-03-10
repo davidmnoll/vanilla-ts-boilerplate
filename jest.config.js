@@ -12,6 +12,8 @@ module.exports = {
       "^.+\\.(js|jsx)$": "babel-jest",
     },
     testEnvironment: 'jest-environment-jsdom',
+    roots: ['./src'],
+    testMatch: ['**/*.test.ts']
   };
 
   
