@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
     "types": ["jest", "node"],
-    "jsx": "preserve",
+    "jsx": "react",
+    "jsxFactory": "createElement",
+    "jsxFragmentFactory": "createFragment",
     "target": "esnext",
     "lib": [
       "dom",
